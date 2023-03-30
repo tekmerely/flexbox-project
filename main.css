@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(./fonts/Vazirmatn-Medium.woff2) format(woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family: 'vazir';
+}
+
+.btn{
+    padding: .75rem 1.75rem;
+    border-radius: 5px;
+    background-color: yellow;
+    color: #333;
+}
+.btn:hover{
+    background-color:white ;
+
+}
+.btn1{
+    display: block;
+    padding: 0.65rem;
+}
+.btn1:hover{
+    background-color: yellow;
+    color: #333;
+}
+.btn2{
+    padding: .75rem 1.75rem;
+    border: #333 2px solid;
+    border-radius: 5px;
+    background-color: #333;
+    color: yellow;
+}
+.btn2:hover{
+    background-color:white ;
+    color: #333;
+
+}
+.m-3{margin: 3rem;}
+.m-2{margin: 2rem;}
+.m-1{margin: 1rem;}
+.p-1{padding: 1rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+/* style main */
+
+#navbar{
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px rgba(#000, #000, #000, 0.2);
+    position: sticky;
+    top: 0px;
+    
+}
+.clr-primery{
+    color: yellow;
+}
+#navbar ul li a{
+    padding: 0.5rem 1rem;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#navbar ul li a:hover{
+    background-color: yellow;
+    color: #333;
+    border-radius: 5px;
+}
+#navbar ul li {
+    list-style: none;
+}
+.main-header{
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url(./img/tom-grimbert-992937-unsplash.jpg) fixed center/cover no-repeat ;
+    height: 100vh;
+    
+}
+.main-header .header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+}
+
+.main-header .header-content h1{
+    font-size: 2.4rem;
+}
+.matn{
+    font-size: 1.3rem;
+}
+
+.section{
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    padding: 4rem;
+}
+.sec{
+    flex: 1;
+    text-align: center;
+    padding:1rem;
+}
+.material-icons{
+    background-color: #333;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: yellow;
+    border-radius: 50%;
+}
+.section-2{
+    display: flex;
+}
+.section-2 div{
+    flex: 1;
+    background-color: #333;
+}
+.section-2 .img{
+    background: url(./img/marcelo-cidrack-WJb_4qwOxcI-unsplash.jpg)center center/cover no-repeat;
+}
+.list{
+    list-style: none;
+}
+.section-2 .content{
+    text-align: center;
+    color: white;
+}
+.section-2 .content ul li{
+
+    border-bottom: white solid 1px;
+    margin: 0px 3rem;
+}
+.mtn1{
+    padding-bottom: 1rem;
+}
+.fs24{
+    font-size: 1.5rem;
+}
+.section-2 .content ul li:last-child{
+    border-bottom: none;
+}
+.section-3{
+    background-color: rgb(244, 244, 244);
+    
+}
+.border{
+    border-bottom:#333 solid 2px ;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+.section-3 .items{
+    display: flex;
+    margin: 0px 7rem;
+    padding: 4rem;
+}
+.section-3 .items div{
+    flex: 1;
+}
+
+.section-3 div img{
+    
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.section-3 h2{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.section-4{
+    background-color:rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+}
+.form{
+    flex-basis: 600px;
+    text-align: center;
+}
+
+.section-4 label{
+    display: block;
+    padding: 1rem 0rem;
+}
+.section-4 input,
+.section-4 textarea{
+    padding: .5rem;
+    width: 100%;
+}
+button{
+    margin-top: 1rem;
+    font-family: 'vazir';
+    font-size: 1rem;
+}
+
+#conversation{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+#footer{
+    background-color: #333;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+}
+#footer div{
+    /* align-items: center; */
+    flex: 1;
+    width: 80%;
+}
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.logo span{
+    font-size: 1.5rem;
+    margin: 0px .5rem;
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
